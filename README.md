@@ -50,8 +50,8 @@ Website dirancang dengan gaya **Minimalism** yang bersih, elegan, responsif, dan
 
 ### 1. Clone Repository
 ```bash
-git clone <URL_REPOSITORY_ANDA>
-cd bakery_umkm
+git clone https://github.com/dtstrasbl-byte/duta-toko.git
+cd duta-toko
 ```
 
 ### 2. Install Dependensi PHP (Composer)
@@ -72,7 +72,7 @@ php artisan key:generate
 ```
 
 ### 4. Database & Seeder
-Buat database SQLite dan jalankan migrasi beserta data contoh (minimal 5 data):
+Buat database SQLite dan jalankan migrasi beserta data contoh:
 ```bash
 php artisan migrate:fresh --seed
 ```
